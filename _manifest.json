@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "id": "github.tsuiraku9.gemini-turn-guard",
+  "version": "1.0.0",
+  "name": "Gemini Turn Guard",
+  "description": "在 Maisaka planner 请求以 assistant/model 结尾时补充一条 user 消息，兼容严格要求用户回合结尾的 Gemini API。",
+  "author": {
+    "name": "tsuiraku9",
+    "url": "https://github.com/tsuiraku9"
+  },
+  "license": "MIT",
+  "urls": {
+    "repository": "https://github.com/tsuiraku9/maibot-gemini-turn-guard",
+    "issues": "https://github.com/tsuiraku9/maibot-gemini-turn-guard/issues"
+  },
+  "host_application": {
+    "min_version": "1.0.0",
+    "max_version": "1.99.99"
+  },
+  "sdk": {
+    "min_version": "2.0.0",
+    "max_version": "2.99.99"
+  },
+  "dependencies": [],
+  "plugin_type": "extension",
+  "capabilities": [],
+  "i18n": {
+    "default_locale": "zh-CN"
+  }
+}
