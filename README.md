@@ -14,6 +14,20 @@ Requests ending with a model turn are not supported.
 
 ## 安装
 
+### WebUI（推荐）
+
+1. 打开 MaiBot WebUI 的“插件管理”。
+2. 点击“安装插件”。
+3. 输入仓库地址：
+
+   ```text
+   https://github.com/tsuiraku9/maibot-gemini-turn-guard
+   ```
+
+4. 点击“安装”并等待插件加载完成。
+
+### 手动安装
+
 将仓库克隆到 MaiBot 的第三方插件目录：
 
 ```bash
@@ -21,7 +35,7 @@ cd /path/to/MaiBot/plugins
 git clone https://github.com/tsuiraku9/maibot-gemini-turn-guard.git
 ```
 
-随后通过 WebUI 重载插件，或重启 MaiBot。
+正常情况下文件监听器会自动加载插件，无需重启 MaiBot 核心。
 
 ## 配置
 
